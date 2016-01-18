@@ -8,9 +8,7 @@
 
 import Foundation
 import AppKit
-import Cocoa
 
-print("Starting...1")
 let doc: String = "Not a serious example.\n" +
         "\n" +
         "Usage:\n" +
@@ -33,8 +31,6 @@ args.removeAtIndex(0) // arguments[0] is always the program_name
 let opts = Docopt.parse(doc, argv: args, help: true, version: "1.0")
 
 let pasteBoard = NSPasteboard.generalPasteboard()
-if let sumCmd = opts["sci"] {
-}
 
 let funcMap = [
         "sci": {

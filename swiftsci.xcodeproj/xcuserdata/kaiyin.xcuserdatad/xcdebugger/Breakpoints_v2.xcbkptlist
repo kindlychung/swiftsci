@@ -14,9 +14,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "replaceByRegex(_:regexOptions:matchOptions:f:)"
-            landmarkType = "5">
+            endingLineNumber = "117">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -63,8 +61,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "106"
             endingLineNumber = "106"
-            landmarkName = "f(_:match:)"
-            landmarkType = "7">
+            landmarkName = "replaceByRegex(_:regexOptions:matchOptions:f:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -79,7 +77,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
             endingLineNumber = "103"
-            landmarkName = "sci1()"
+            landmarkName = "replaceByRegex(_:regexOptions:matchOptions:f:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -95,8 +93,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
             endingLineNumber = "104"
-            landmarkName = "f(_:match:)"
-            landmarkType = "7">
+            landmarkName = "replaceByRegex(_:regexOptions:matchOptions:f:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
