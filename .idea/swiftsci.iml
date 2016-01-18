@@ -2,15 +2,14 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/docopt/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/docopt/Docopt.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/docopt/Tokens.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/docopt/OptionsShortcut.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/docopt/OneOrMore.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/docopt/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/docopt/Argument.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/docopt/BranchPattern.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/docopt/DocoptError.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/docopt/Docopt.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/docopt/Docopt.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/docopt/Extensions/String.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/docopt/Pattern.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/docopt/Either.swift" isTestSource="false" />
@@ -19,6 +18,7 @@
       <sourceFolder url="file://$MODULE_DIR$/docopt/Option.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/docopt/LeafPattern.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/docopt/Optional.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/docopt/OneOrMore.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/swiftsci/main.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/swiftsci/sciNotation/sci.swift" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Build/Intermediates" />

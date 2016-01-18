@@ -10,19 +10,17 @@ import Foundation
 import AppKit
 import Cocoa
 
-
-
-
-
+print("Starting...")
 let doc: String = "Not a serious example.\n" +
         "\n" +
         "Usage:\n" +
         "  swiftsci sci \n" +
+        "  swiftsci ibook \n" +
 //        "  swiftsci <function> <value> [( , <value> )]...\n" +
 //        "  swiftsci <value> ( ( + | - | * | / ) <value> )...\n" +
         "  swiftsci (-h | --help)\n" +
         "\n" +
-//        "Examples:\n" +
+//        "Examples:\n" +   
 //        "  swiftsci 1 + 2 + 3 + 4 + 5\n" +
 //        "  swiftsci 1 + 2 '*' 3 / 4 - 5    # note quotes around '*'\n" +
 //        "  swiftsci sum 10 , 20 , 30 , 40\n" +
@@ -47,8 +45,9 @@ if let sumCmd = opts["sci"] {
         let o = pasteBoard.pasteboardItems
         if let o1 = o {
             let oldString = o1[0].stringForType("public.utf8-plain-text")!
-            let newString = try oldString.sci()
+            let newString = try oldString.sci1()
             if newString != oldString {
+                print("Hit!")
                 pasteBoard.clearContents()
                 pasteBoard.writeObjects([newString])
                 print("Old: \(oldString)\nNew: \(newString)")
