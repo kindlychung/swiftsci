@@ -38,7 +38,7 @@ let funcMap = [
         },
         "ibook": {
             (s: String) throws -> String in try s.ibook()
-        },
+        }
 ]
 
 func replaceClip(f: String throws -> String) throws {
