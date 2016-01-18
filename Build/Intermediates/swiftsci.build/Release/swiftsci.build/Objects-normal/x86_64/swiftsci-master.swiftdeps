@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "54e2e7cdf0b680eb1b65b092b92a1c3e"
+build_time: [506400052, 651767000]
+inputs:
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/Command.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/swiftsci/sciNotation/sci.swift": [506398696, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/swiftsci/main.swift": [506400052, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/Pattern.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/Optional.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/Extensions/String.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/Argument.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/Docopt.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/Required.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/OneOrMore.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/Either.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/LeafPattern.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/Option.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/DocoptError.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/BranchPattern.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/Tokens.swift": [506387559, 0]
+  "/Users/kaiyin/appcodeProjects/swiftsci/docopt/OptionsShortcut.swift": [506387559, 0]
