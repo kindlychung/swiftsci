@@ -7,32 +7,33 @@ import Foundation
 import AppKit
 
 
-func head(s: String) -> Character {
-    return s[s.startIndex]
-}
-
-func tail(s: String) -> String {
-    let range = (s.startIndex.advancedBy(1)) ..< s.endIndex
-    return s[range]
-}
-
-
-func dealWithSign(s: String) -> String {
-    if head(s) == "-" {
-        return "-\(dealWithSign(tail(s)))"
-    } else if head(s) == "+" {
-        return dealWithSign(tail(s))
-    } else {
-        var s1 = s
-        while (head(s1) == "0") {
-            s1 = tail(s1)
-        }
-        return s1
+public struct Str {
+    public static func head(s: String) -> Character {
+        return s[s.startIndex]
     }
-}
+    
+    public static func tail(s: String) -> String {
+        let range = (s.startIndex.advancedBy(1)) ..< s.endIndex
+        return s[range]
+    }
+    
+    
+    public static func dealWithSign(s: String) -> String {
+        if head(s) == "-" {
+            return "-\(dealWithSign(tail(s)))"
+        } else if head(s) == "+" {
+            return dealWithSign(tail(s))
+        } else {
+            var s1 = s
+            while (head(s1) == "0") {
+                s1 = tail(s1)
+            }
+            return s1
+        }
+    }
 
 
-let superscriptDict: [Character:Character] = [
+    public static let superscriptDict: [Character:Character] = [
         "0": "\u{2070}",
         "1": "\u{00b9}",
         "2": "\u{00b2}",
@@ -44,7 +45,9 @@ let superscriptDict: [Character:Character] = [
         "8": "\u{2078}",
         "9": "\u{2079}",
         "-": "⁻"
-]
+    ]
+}
+
 
 public extension String {
     public func rangeFromNSRange(aRange: NSRange) -> Range<String.Index> {
@@ -90,8 +93,8 @@ public extension String {
     public func sci() throws -> String {
         func f(string: String, match: NSTextCheckingResult) -> String {
             let coef = string[match.rangeAtIndex(1)]!
-            let exponent = dealWithSign(string[match.rangeAtIndex(3)]!).characters.map({
-                superscriptDict[$0]!
+            let exponent = Str.dealWithSign(string[match.rangeAtIndex(3)]!).characters.map({
+                Str.superscriptDict[$0]!
             })
             return "\(coef)\u{00d7}10\(String(exponent))"
         }
